@@ -1,7 +1,3 @@
-
-foo()
-
-function foo(){
-    let userName = "alhaos"
-    return userName
-}
+const logoImg = document.getElementById("logo");
+const button = document.querySelector("button");
+button.onclick = function() {logoImg.setAttribute("src", "logoGreen.png")};
